@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
   const api = {
     key: "8988a9114e9cd5f695ac94170bdd9cd6",
-    url: "http://api.openweathermap.org/data/2.5/",
+    url: "https://api.openweathermap.org/data/2.5/",
   };
 
   const todayDate = new Date().toLocaleDateString("en-US", {
